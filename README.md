@@ -1,5 +1,6 @@
 # gitignore-django
 Reference for Django .gitignore files
+~~~
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -28,7 +29,6 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
@@ -57,7 +57,6 @@ cover/
 # Translations
 *.mo
 *.pot
-
 # Django stuff:
 *.log
 local_settings.py
@@ -88,14 +87,13 @@ ipython_config.py
 #   For a library or package, you might want to ignore these files since the code is
 #   intended to run in multiple environments; otherwise, check them in:
 # .python-version
-
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
 #   having no cross-platform support, pipenv may install dependencies that don't work, or not
 #   install all needed dependencies.
-#Pipfile.lock
 
+#Pipfile.lock
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
 __pypackages__/
 
@@ -135,3 +133,4 @@ dmypy.json
 
 # pytype static type analyzer
 .pytype/
+~~~
